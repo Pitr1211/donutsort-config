@@ -1,0 +1,52 @@
+{
+  "version": 1,
+  "ads": {
+    "networks": ["unity"],
+    "interstitialEveryNGames": 3,
+    "bannerEnabled": false,
+    "interstitialEnabled": true,
+    "rewardedEnabled": true,
+    "testMode": false,
+    "networkConfig": {
+      "unity": {
+        "gameId": "27b7d1dad",
+        "interstitial": "aoun98i8dsmqvrwy",
+        "rewarded": "umry1pxwihfihsr4"
+      },
+      "admob": {
+        "banner": "",
+        "interstitial": "",
+        "rewarded": ""
+      }
+    }
+  },
+  "placements": {
+    "hintOrPeg": { "network": "auto", "enabled": true },
+    "levelComplete": { "network": "auto", "enabled": true }
+  },
+  "limits": {
+    "interstitialEveryNLevels": 3,
+    "minGapMinutes": 10,
+    "rewardedSharesGap": false,
+    "maxRewardedPerDay": 5
+  },
+  "economy": {
+    "dailyRewardEnabled": true,
+    "levelWinBaseCoins": 20
+  },
+  "news": {
+    "id": 1,
+    "title": "",
+    "body": ""
+  },
+  "update": {
+    "required": false,
+    "minVersion": 1,
+    "url": "https://play.google.com/store/apps/details?id=com.mmb.donutsort"
+  },
+  "maintenance": {
+    "on": false,
+    "message": ""
+  },
+  "masterSwitch": true
+}
