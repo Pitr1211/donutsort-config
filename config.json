@@ -57,5 +57,23 @@
     "on": false,
     "message": ""
   },
-  "masterSwitch": true
+  "masterSwitch": true,
+  "spots": {
+    "hint": {
+      "network": "admob",
+      "fallback": true
+    },
+    "peg": {
+      "network": "unity",
+      "fallback": true
+    },
+    "stuckPeg": {
+      "network": "admanager",
+      "fallback": true
+    },
+    "winDouble": {
+      "network": "admob",
+      "fallback": true
+    }
+  }
 }
