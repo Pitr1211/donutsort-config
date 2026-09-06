@@ -1,7 +1,10 @@
 {
   "version": 1,
   "ads": {
-    "networks": ["unity"],
+    "networks": [
+      "unity",
+      "admob"
+    ],
     "interstitialEveryNGames": 3,
     "bannerEnabled": false,
     "interstitialEnabled": true,
@@ -14,15 +17,21 @@
         "rewarded": "umry1pxwihfihsr4"
       },
       "admob": {
-        "banner": "",
-        "interstitial": "",
-        "rewarded": ""
+        "banner": "ca-app-pub-1618564143024243/6737847432",
+        "interstitial": "ca-app-pub-1618564143024243/5285164966",
+        "rewarded": "ca-app-pub-1618564143024243/9172439083"
       }
     }
   },
   "placements": {
-    "hintOrPeg": { "network": "auto", "enabled": true },
-    "levelComplete": { "network": "auto", "enabled": true }
+    "hintOrPeg": {
+      "network": "auto",
+      "enabled": true
+    },
+    "levelComplete": {
+      "network": "auto",
+      "enabled": true
+    }
   },
   "limits": {
     "interstitialEveryNLevels": 3,
