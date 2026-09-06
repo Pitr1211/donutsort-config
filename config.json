@@ -1,9 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "ads": {
     "networks": [
       "unity",
-      "admob"
+      "admob",
+      "admanager"
     ],
     "interstitialEveryNGames": 3,
     "bannerEnabled": false,
@@ -20,6 +21,12 @@
         "banner": "ca-app-pub-1618564143024243/6737847432",
         "interstitial": "ca-app-pub-1618564143024243/5285164966",
         "rewarded": "ca-app-pub-1618564143024243/9172439083"
+      },
+      "admanager": {
+        "networkCode": "23326764458",
+        "banner": "/23326764458/donutsort_banner_android",
+        "interstitial": "/23326764458/donutsort_interstitial_android",
+        "rewarded": "/23326764458/donutsort_rewarded_android"
       }
     }
   },
