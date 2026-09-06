@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "ads": {
     "networks": [
       "unity",
@@ -67,11 +67,11 @@
   "masterSwitch": true,
   "spots": {
     "hint": {
-      "network": "admob",
+      "network": "admanager",
       "fallback": true
     },
     "peg": {
-      "network": "unity",
+      "network": "admanager",
       "fallback": true
     },
     "stuckPeg": {
@@ -79,7 +79,7 @@
       "fallback": true
     },
     "winDouble": {
-      "network": "admob",
+      "network": "admanager",
       "fallback": true
     }
   }
